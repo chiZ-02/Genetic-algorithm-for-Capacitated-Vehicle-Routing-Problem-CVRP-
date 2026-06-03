@@ -4,7 +4,7 @@ This project implements a Genetic Algorithm to solve a Capacitated Vehicle Routi
 
 ## Features
 
-* Solves a vehicle routing problem using a Genetic Algorithm
+* Solves or optimizes a vehicle routing problem using a Genetic Algorithm
 * Supports adjustable number of vehicles
 * Supports vehicle capacity constraints
 * Uses selection, crossover, mutation, and elite strategy
@@ -140,13 +140,14 @@ The algorithm includes the following steps:
 * Make sure the distance matrix and demand data use consistent node numbering.
 * Node `0` should represent the depot.
 * The total demand should not exceed the total vehicle capacity.
-* The running time could be very long if total capacity close to total demand
+* The running time could be very long if total demand close to total capacity
 
 ## Future Improvements
 
 Possible future improvements include:
 
 * Rename some variables and functions to make it easier to understand
+* Find a better strategy of creating initial group (problem mentioned in fifth Notes).
 * Add a graphical user interface
 * Allow users to upload input files
 * Export final routes to Excel
